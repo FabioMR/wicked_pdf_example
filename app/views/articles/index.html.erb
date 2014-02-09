@@ -1,0 +1,7 @@
+<%= link_to "Go to root", root_path %>
+
+<h1>Articles list</h1>
+
+<% @articles.each do |article| %>
+  <p><%= article.title %></p>
+<% end %>
